@@ -2,7 +2,7 @@
 
 # Blog
 
-Este es un proyecto de prueba desarrollado en laravel y vue y angular. para el adecuado funcionamiento de este proyecto necesitas tener:
+Este es un proyecto de prueba desarrollado en laravel, vue y angular. para el adecuado funcionamiento de este proyecto necesitas tener:
 
 PHP 7.3 o superior. 
 
