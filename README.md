@@ -1,4 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+
 # Blog
 
 Este es un proyecto de prueba desarrollado en laravel y vue. para el adecuado funcionamiento de este proyecto necesitas tener:
@@ -6,9 +7,6 @@ Este es un proyecto de prueba desarrollado en laravel y vue. para el adecuado fu
 PHP 7.3 o superior. 
 
 Tener instalado componer
-
-Necesitas tener instalado node. 
-
 
 ## Installation
 
@@ -23,11 +21,7 @@ git clone https://github.com/AndTras/blog.git
 ```bash
 composer install
 ```
-3. Instalaremos las dependencias de node.
 
-```bash
-npm install
-```
 ## Configuración
 
 1. Necesitas configurar la base de datos en el .env
@@ -55,7 +49,7 @@ php artisan tinker;
 ```bash
  autor::factory()->count(5)->create();
 ```
-6. Ahora crearemos 20 post con el siguiente comando:
+6. Ahora crearemos 25 post con el siguiente comando:
 ```bash
  post::factory()->count(25)->create();
 ```
