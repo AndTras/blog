@@ -1,0 +1,34 @@
+<div class="row mb-2 bg-light" *ngIf="post">
+    <div class="card mb-3 bg-white col-md-12 shadow ">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img
+                    [src]="baseUrl+'images/'+post.imagen"
+                    class="card-img"
+                    alt="..."
+                />
+            </div>
+            <div class="col-md-8 d-flex flex-column bd-highlight mb-3 pl-5">
+                <div class="card-body">
+                    <h4 class="card-title">{{ post.titulo }}</h4>
+                    <p class="card-text">
+                        <small class="text-muted"
+                            >{{ post.autor.nombre }}
+                            {{ post.autor.apellidos }}</small
+                        >
+                    </p>
+                    <p class="card-text text-sm-left">{{ post.contenido }}</p>
+                </div>
+                <div class="d-flex justify-content-end">
+                        <a type="button" class="btn btn-light mx-1" routerLink="/" >Regresar</a>
+                        <a type="button" class="btn btn-primary mx-1">Editar</a>
+                    <a
+                        type="button"
+                        class="btn btn-danger mx-1"
+                        >Eliminar</a
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
