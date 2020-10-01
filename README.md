@@ -6,7 +6,7 @@ Este es un proyecto de prueba desarrollado en laravel y vue. para el adecuado fu
 
 PHP 7.3 o superior. 
 
-Tener instalado componer
+Tener instalado composer
 
 ## Installation
 
